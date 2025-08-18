@@ -1,0 +1,56 @@
+
+html, body {
+  position: relative;
+  
+  width: 100vw;
+  height: 100vh;
+
+  max-width: 100vw;
+  max-height: 100vh;
+
+  overflow: hidden;
+}
+
+.z, .o, .t, .tt, .f {
+  position: fixed;
+}
+
+.z {
+  top: 24%;
+  right: 4%;
+
+  font-size: 36vh;
+}
+
+.o {
+  bottom: 1%;
+  left: 15%;
+
+  font-size: 29vh;
+}
+
+.t {
+  top: 50%;
+  left: 50%;
+
+  font-size: 37vh;
+
+  transform: translate(-50%, -50%);
+}
+
+.tt {
+  bottom: 59%;
+  right: 25%;
+
+  font-size: 15vh;
+}
+
+.f {
+  bottom: 10%;
+  left: 50%;
+
+  font-size: 25vh;
+
+  transform: translateX(-50%);
+}
+
