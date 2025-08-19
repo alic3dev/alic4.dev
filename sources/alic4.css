@@ -11,6 +11,11 @@ html, body {
   overflow: hidden;
 }
 
+a, a:link, a:visited, a:hover, a:active {
+  color: unset;
+  text-decoration: none;
+}
+
 .z, .o, .t, .tt, .f {
   position: fixed;
 }
