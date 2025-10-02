@@ -16,46 +16,63 @@ a, a:link, a:visited, a:hover, a:active {
   text-decoration: none;
 }
 
-.z, .o, .t, .tt, .f {
+.a3, .i, .e, .ee, .x, .h, .hh, .hch {
   position: fixed;
 }
 
-.z {
-  top: 24%;
-  right: 4%;
+.a3 {
+  bottom: 10%;
+  left: 50%;
 
-  font-size: 36vh;
+  font-size: 10vh;
 }
 
-.o {
-  bottom: 1%;
-  left: 15%;
-
-  font-size: 29vh;
-}
-
-.t {
+.i {
   top: 50%;
   left: 50%;
+
+  font-size: 40vh;
+
+  transform: translate(-50%, -50%);
+}
+
+.e {
+  top: 50%;
+  left: 25%;
 
   font-size: 37vh;
 
   transform: translate(-50%, -50%);
 }
 
-.tt {
-  bottom: 59%;
-  right: 25%;
+.ee {
+  top: 27%;
+  right: 29%;
 
-  font-size: 15vh;
+  font-size: 40vh;
 }
 
-.f {
+.x {
   bottom: 10%;
-  left: 50%;
+  left: 40%;
 
   font-size: 25vh;
 
   transform: translateX(-50%);
+}
+
+.h {
+  top: 1%;
+  left: 50%;
+}
+
+.hh {
+  top: 2%;
+  left: 40%;
+}
+
+.hch {
+  top: 3%;
+  left: 30%;
 }
 
