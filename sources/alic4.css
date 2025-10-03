@@ -1,71 +1,434 @@
 
-html, body {
-  position: relative;
-  
-  width: 100vw;
-  height: 100vh;
 
-  max-width: 100vw;
-  max-height: 100vh;
+html, body {
+   display:  inline;
+background: #000000;
+    position: fixed;
+  
+     width : 100vw;
+    height: 100vh;
+
+   margin: 0;
+    padding: 0;
+
+    max-width : 100vw;
+   max-height: 100vh;
 
   overflow: hidden;
 }
 
-a, a:link, a:visited, a:hover, a:active {
-  color: unset;
+a      , a:link,         a:visited, a:hover,            a:active {
+  color: #ffffff;
   text-decoration: none;
 }
 
-.k, .i, .e, .ee, .h, .hh, .hch {
+.alice_one, .alice_two, .alice_three {
+  font-size: 29vh; background: #7a7a7a; color: #0000bb;
+  position: absolute;
+  top: 100%;
+  transform: translate(-50%, -100%);
+}
+
+.alice_two {
+ left: 33%;
+}
+
+
+.alice_one  { right: 11%; transform:  skew(116deg) scale(-1, 1)       translateX(107%)    translateY(-100%);}
+.alice_three {right: 11%; transform:   rotate(-11deg)       translateX( 33%)  skew(-13deg)   translateY(-100%)        ;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.alice_seven,    .alice_five, .alice_six {
+position: absolute; font-size: 22vh;
+ transform: translate(-50%, 100%);
+bottom:         100%;
+}.alice_six   {  left
+:  30%  ;  }
+.alice_seven{
+left: 50%; }
+.alice_five {
+right:40%; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rip {
   position: fixed;
+
+  bottom: 100000000000%;
+  left: 100000000000%;
+
+  width: 0px;
+  height: 0px;
+
+  transform: translateY(-1000000000000000000%);
+
+  font-size: 0.000000000000001vh;
 }
-
-.k {
-  bottom: 99%;
-  left: 100%;
-
-  transform: translateY(-10%);
-
-  font-size: 0.01vh;
-}
-
-.i {
-  top: 50%;
-  left: 50%;
-
-  font-size: 40vh;
-
-  transform: translate(-50%, -50%);
-}
-
-.e {
-  top: 50%;
-  left: 25%;
-
-  font-size: 37vh;
-
-  transform: translate(-50%, -50%);
-}
-
-.ee {
-  top: 27%;
-  right: 29%;
-
-  font-size: 40vh;
-}
-
-.h {
-  top: 1%;
-  left: 50%;
-}
-
-.hh {
-  top: 2%;
-  left: 40%;
-}
-
-.hch {
-  top: 3%;
-  left: 30%;
-}
-
