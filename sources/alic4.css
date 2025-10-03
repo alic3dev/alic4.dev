@@ -16,7 +16,7 @@ a, a:link, a:visited, a:hover, a:active {
   text-decoration: none;
 }
 
-.k, .i, .e, .ee, .x, .h, .hh, .hch {
+.k, .i, .e, .ee, .h, .hh, .hch {
   position: fixed;
 }
 
@@ -52,15 +52,6 @@ a, a:link, a:visited, a:hover, a:active {
   right: 29%;
 
   font-size: 40vh;
-}
-
-.x {
-  bottom: 10%;
-  left: 40%;
-
-  font-size: 25vh;
-
-  transform: translateX(-50%);
 }
 
 .h {
