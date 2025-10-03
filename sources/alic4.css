@@ -22,7 +22,7 @@
 }
 
 html, body {
-  background: linear-gradient(to right, #000000, #0000FF);
+  background: #ffffff;
 }
 
 a, a:link, a:visited, a:hover, a:active {
@@ -35,7 +35,7 @@ a, a:link, a:visited, a:hover, a:active {
   top: 10%;
   left: 50%;
 
-  font-size: 29vh;
+  font-size: 20vh;
 
   transform: translate(-50%, -50%);
 
