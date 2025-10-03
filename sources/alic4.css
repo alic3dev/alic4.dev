@@ -16,15 +16,17 @@ a, a:link, a:visited, a:hover, a:active {
   text-decoration: none;
 }
 
-.a3, .i, .e, .ee, .x, .h, .hh, .hch {
+.k, .i, .e, .ee, .x, .h, .hh, .hch {
   position: fixed;
 }
 
-.a3 {
-  bottom: 10%;
-  left: 50%;
+.k {
+  bottom: 99%;
+  left: 100%;
 
-  font-size: 10vh;
+  transform: translateY(-10%);
+
+  font-size: 0.01vh;
 }
 
 .i {
