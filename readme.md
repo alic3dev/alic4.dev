@@ -1,9 +1,19 @@
-# alic4.dev
+# [alic4.dev](https://alic4.dev)
 
-[alic4.dev](https://alic4.dev)
+<img width="2032" height="1316" alt="alic4.dev" src="https://github.com/user-attachments/assets/b9c7c491-fda1-4baf-8339-8eb9ae19529c" />
 
-<img width="2032" height="1316" alt="alic4" src="https://github.com/user-attachments/assets/a1cf1a4d-75b2-4286-b47e-f072436f26ad" />
+## build
 
-## copyright | copyleft
+```zsh
+pnpm build
+```
 
-> © [copyright|copyleft]->{alic3dev:2025}:all_rights_reserved|all_lefts_reserved
+## development
+
+```zsh
+pnpm dev
+```
+
+## copyright|copyleft
+
+> © [copyleft|copyright]->{alic4dev(2024|2025)}:[all_rights_reserved|all_lefts_reserved]
