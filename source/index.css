@@ -1,0 +1,42 @@
+:root {
+  --color-black: #000000;
+  --color-white: #ffffff;
+
+  --color-background: --color-white;
+  --color-text: --color-black;
+}
+
+html,
+body {
+  background: var(--color-background);
+
+  color: var(--color-text);
+
+  font-family: monospace;
+}
+
+.navigation {
+  position: fixed;
+  top: 0;
+  right: 25%;
+
+  transform: translateX(50%);
+}
+
+.introduction {
+  position: fixed;
+  top: 50%;
+  right: 25%;
+
+  text-align: left;
+
+  transform: translate(50%, -50%);
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  right: 25%;
+
+  transform: translateX(50%);
+}
