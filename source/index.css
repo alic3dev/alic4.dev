@@ -36,7 +36,8 @@ body {
 .footer {
   position: fixed;
   bottom: 0;
-  right: 25%;
+  left: 0;
+  right: 0;
 
-  transform: translateX(50%);
+  text-align: center;
 }
