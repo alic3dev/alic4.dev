@@ -18,19 +18,21 @@ body {
 .navigation {
   position: fixed;
   top: 0;
-  right: 25%;
+  left: 0;
+  right: 0;
 
-  transform: translateX(50%);
+  text-align: center;
 }
 
 .introduction {
   position: fixed;
   top: 50%;
-  right: 25%;
+  left: 0;
+  right: 0;
 
-  text-align: left;
+  text-align: center;
 
-  transform: translate(50%, -50%);
+  line-height: 0;
 }
 
 .footer {
